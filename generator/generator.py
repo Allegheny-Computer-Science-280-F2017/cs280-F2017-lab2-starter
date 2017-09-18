@@ -18,7 +18,7 @@ def parse_duplicates_arguments(args):
 
 def display_welcome_message():
     """ Display a welcome message """
-    print("Generator generates a lists of lists from an input list!")
+    print("Generator generates a list of lists from an input list!")
     print()
 
 
@@ -28,7 +28,9 @@ def display_list_of_lists(list_of_lists):
 
 def generate(starting_list):
     """ Assumes that starting_ is a list.
-        Removes any element from list_one that also occurs in list_two """
+        Produces a list of lists that includes the starting_list as well as 
+        all of the lists that can be obtained by swapping two adjacent items
+        in starting_list. """
     list_of_lists = []
     return list_of_lists
 
