@@ -18,7 +18,7 @@ def parse_duplicates_arguments(args):
 
 def display_welcome_message():
     """ Display a welcome message """
-    print("Generator generates a lists of lists from an input list!")
+    print("Generator generates a list of lists from an input list!")
     print()
 
 
